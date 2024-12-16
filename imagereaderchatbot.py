@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import google.generativeai as genai
-genai.configure(api_key="AIzaSyBt6fdoOnj5L1p74aio7QTsSpzfuQ5Lc5E")
+genai.configure(api_key="ABC")
 model_name="gemini-1.5-flash"
 model=genai.GenerativeModel(model_name)
 import PIL.Image as img;
